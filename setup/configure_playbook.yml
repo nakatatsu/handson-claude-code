@@ -91,7 +91,7 @@
 
     - name: terraform-docs をダウンロード
       get_url:
-        url: "https://terraform-docs.io/dl/{{ terraform_docs_version }}/terraform-docs-{{ terraform_docs_version }}-linux-amd64.tar.gz"
+        url: "https://github.com/terraform-docs/terraform-docs/releases/download/{{ terraform_docs_version }}/terraform-docs-{{ terraform_docs_version }}-linux-amd64.tar.gz"
         dest: /tmp/terraform-docs.tar.gz
         mode: "0644"
 

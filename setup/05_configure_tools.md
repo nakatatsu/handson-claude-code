@@ -30,5 +30,3 @@ gh auth login
 ```console
 claude /init
 ```
-
-プルリクが作られたらマージしてください。
